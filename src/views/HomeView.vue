@@ -10,9 +10,12 @@
 import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
-  name: 'HomeView',
   components: {
     HelloWorld,
+  },
+  mounted() {
+    // comment or uncomment the following line to trigger a hot reload
+    console.log('HomeView mounted');
   },
 };
 </script>
